@@ -51,11 +51,6 @@ def checkStuff():
 
                             break
 
-        elif (seconds >= ctime):
-
-            os.remove(path)
-            deleted_files += 1
-
         else:
 
             print(f'"{path}" is not found')
